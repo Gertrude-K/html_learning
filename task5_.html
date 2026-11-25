@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .nav{
+            background-color: navy;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            align-items:center;
+        
+        
+        }
+        .left{
+            color: white;
+            font-weight: bold;
+
+        }
+        .middle ul{
+            display: flex;
+            list-style: none;
+        }
+        .middle a{
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+        }
+        .right button{
+            background-color: lightblue;
+            color:darkslategrey;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+        .main{
+            display: flex;
+            justify-content: space-between;
+            background-color: lightblue;
+            align-items: center;
+            padding: 20px;
+        }
+        .content{
+            align-content: flex-start;
+        }
+        .min{
+            font-size: 12px;
+            color: blue;
+            margin-top:0px;
+
+        }
+        .max{
+            color: navy;
+            font-size: 50px;
+
+        }
+        .explore button{
+            background-color: navy;
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            width:200px;
+         
+
+        }
+        button:hover{
+               cursor: pointer;
+               background-color: blue;
+        }
+        .image{
+         margin-right: 30px;
+         border-radius: 10px;
+         margin-top: 80px;
+        }
+        .about{
+            display: block;
+            justify-content: space-between;
+            padding: 60px;
+        }
+        .whoweare{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card{
+            display: flex;
+            justify-content: space-between;
+          
+        
+        }
+        .card1, .card2, .card3{
+              margin-left: 20px;
+            background-color: lightblue;
+            padding: 20px;
+            height: 200px;
+            align-items: center;
+            line-height: 28px;
+              border-radius: 10px;
+              position: relative;
+              padding: 30px;
+        }
+        .card3:hover{
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+               box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+               
+        }
+        .card2:hover{
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+               box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+               
+        }
+        .card1:hover{
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+               box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+               
+        }
+        .no{
+               background-color: navy;
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            width:20px;
+            
+            top:0;
+            left:0;
+         
+        }
+        .course{
+            color: navy;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+        .contact{
+            text-align: center;
+            background-color: navy;
+            color: white;
+            padding: 50px;
+            align-items: center;
+            
+        }
+        .ready{
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+
+        .contact-btn button{
+            background-color: aqua;
+            color: navy;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            width:200px;
+
+        }
+         .contact-btn button:hover{
+            cursor: pointer;
+            background-color: blue;
+         }
+
+        .footer{
+            background-color:darkblue;
+            text-align: center;
+            color: white;
+            position: absolute;
+            width: 100%;
+        }
+        .rounded-corners {
+         border-radius: 15px; 
+         
+        }
+
+      
+    </style>
+</head>
+<body>
+ <div class="box-main">
+    <div class="nav">
+        <div class="left">
+            <p>TechElar</p>
+        </div>
+        <div class="middle">
+             <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+             </ul>
+        </div>
+        <div class="right">
+               <button>Get Started</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+           <div class="min">
+            <p>WELOME TO TECHLAR</p>
+           </div>
+           <div class="max">
+            <p>Build Your Future With<br> Technology</p>
+           </div>
+           <div class="paragraph">
+            <p>We provide innovative software solutions, practical technology training, and IT<br>consultancy to help individuals and businesses grow.</p>
+           </div>
+           <div class="explore">
+            <button>Explore Services</button>
+           </div>
+        </div>
+        <div class="image">
+               <img src="comp.jpeg" alt="computer" class="rounded-corners">
+        </div>
+
+
+
+    </div>
+    <div class="about">
+           <div class="whoweare">
+             <div class="min">
+                <p>ABOUT US</p>
+             </div>
+              <div class="max">
+                <p>Who We Are</p>
+              </div>
+              <div class="paragraph">
+                TechElar is a technology company focused on building modern software solutions and equipping<br>people with practical digital skills.
+              </div>
+
+           </div>
+           <div class="card">
+              <div class="card1">
+               <div class="no">01</div>
+               <div class="course">Web Development</div>
+               <div class="paragraph">We build modern, responsive websites and web applications that help businesses succeed.</div>
+              </div>
+              <div class="card2">
+                <div class="no">02</div>
+               <div class="course">Software Training</div>
+               <div class="paragraph">We provide practical, hands-on training to help learners develop real-world programming skills.</div>
+              </div>
+              <div class="card3">
+                <div class="no">03</div>
+               <div class="course">IT Consultancy</div>
+               <div class="paragraph">We help businesses identify technology challenges and implement effective digital solutions.</div>
+              </div>
+           </div>
+
+    </div> 
+    <div class="contact">
+        <div class="ready">
+            <p>Ready to Get Started?</p>
+        </div>
+        <div class="paragraph">
+            <p>Let's work together to bring your ideas to life.</p>
+        </div>
+        <div class="contact-btn">
+            <button>Contact Us</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p> &copy 2026 TechElar. All rights reserved.</p>
+    </div>
+ </div>
+</body>
+</html>
